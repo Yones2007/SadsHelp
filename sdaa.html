@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مشاهدة الفيديوهات</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: linear-gradient(135deg, #4e54c8, #8f94fb);
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            flex-direction: column;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+            width: 90%;
+            max-width: 800px;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #ffd700;
+            text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        .video {
+            margin-bottom: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+            border-radius: 5px;
+        }
+        .footer {
+            margin-top: 20px;
+            color: #d3d3d3;
+            font-size: 0.9em;
+        }
+        .footer a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>مشاهدة الفيديوهات</h1>
+        
+        <!-- الفيديو الأول -->
+        <div class="video">
+            <iframe src="https://iframe.mediadelivery.net/embed/215061/5ad28956-410c-4ab1-9d04-488d7e5e692?autoplay=true&loop=false&muted=false&preload=true&responsive=true"></iframe>
+        </div>
+
+        <!-- الفيديو الثاني -->
+        <div class="video">
+            <iframe src="https://iframe.mediadelivery.net/embed/215061/8f6f69a3-112b-4e4e-9d0b-a7aa2d3ff9e8?autoplay=true&loop=false&muted=false&preload=true&responsive=true"></iframe>
+        </div>
+
+        <!-- الفيديو الثالث -->
+        <div class="video">
+            <iframe src="https://iframe.mediadelivery.net/embed/215061/d843f43a-0e18-411e-b5a8-26b82ceac148?autoplay=true&loop=false&muted=false&preload=true&responsive=true"></iframe>
+        </div>
+
+        <div class="footer">
+            <p>القناة الرئيسة على تيليجرام: <a href="https://t.me/tteiio" target="_blank">اضغط هنا</a></p>
+            <p>بوت Sads Help: <a href="https://t.me/PHNMUBOT" target="_blank">اضغط هنا</a></p>
+        </div>
+    </div>
+</body>
+</html>
